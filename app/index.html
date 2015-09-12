@@ -1,6 +1,22 @@
 <!DOCTYPE html>
-<html ng-app="mBlogApp">
+<html ng-app="mbApp">
   <head>
-  	<link rel="stylesheet" src=""/>
+  	<title>Mini Blogger App</title>
+  	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" type="text/css"/>
+  	<link rel="stylesheet" href="css/custom.css"/>
+  	<script src="../bower_components/jquery/dist/jquery.js"></script>
+  	<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  	<script src="../bower_components/angular/angular.js"></script>
+  	<script src="../bower_components/angular-route/angular-route.js"></script>
+  	<script src="js/mbApp.js"></script>
+  	<script src="js/mbAppCtrls.js"></script>
+  	<script src="js/mbAppServices.js"></script>
+  	<script src="js/mbAppDirectives.js"></script>
   </head>
+  <body>
+  	<div class="container">
+  	  <navbar></navbar>
+  	  <ng-view></ng-view>
+    </div>
+  </body>
 </html>

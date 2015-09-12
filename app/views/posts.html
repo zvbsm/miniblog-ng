@@ -1,0 +1,18 @@
+<div class="row centerRow">
+  <div class="col-md-5 centerCol">
+    <div class="panel panel-success" ng-repeat="post in posts">
+      <div class="panel-heading">
+        <h3 class="panel-title">{{post.title}}</h3>
+      </div>
+      <div class="panel-body">
+        {{post.summary}}
+      </div>
+      <div class="panel-footer clearfix">
+        Posted By: <b>{{post.author}}</b> | {{post.date | date}} 
+        <a class="btn btn-success pull-right" href="#/expandpost/{{posts.indexOf(post)}}">
+            <span class="glyphicon glyphicon-fullscreen"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+{
+  "name": "miniblog-ng",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zvbsm/miniblog-ng",
+  "authors": [
+    "zvbsm <tdelgabsm@gmail.com>"
+  ],
+  "description": "A simple mini blogger app using AngularJS to exercise using ngRoutes",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-route": "~1.4.5",
+    "bootstrap": "~3.3.5"
+  }
+}

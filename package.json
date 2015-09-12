@@ -1,0 +1,22 @@
+{
+  "name": "miniblog-ng",
+  "version": "1.0.0",
+  "description": "Mini blogger app using AngularJS to exercise using ngRoutes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zvbsm/miniblog-ng.git"
+  },
+  "author": "Fernando Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zvbsm/miniblog-ng/issues"
+  },
+  "homepage": "https://github.com/zvbsm/miniblog-ng#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
