@@ -1,6 +1,3 @@
 # miniblog-ng
 
-This is a simple mini blogger app which takes from my earlier project "TestProject02" and will develop the test project further by using
-ngRoutes and updating various features. This project is an exercise to practice coding in AngularJS. While TestProject02 was a test to develop
-the app within 48 hours, this project has no time limit, and will be developed as I learn how to use more methods to develop a blogging
-system.
+This is a simple mini blogger app which takes from my earlier project "TestProject02" and will develop the test project further by using ngRoutes and updating various features. This project is an exercise to practice coding in AngularJS. While TestProject02 was a test to develop the app within 48 hours, this project has no time limit, and will be developed as I learn how to use more methods in creating a blogging system.
