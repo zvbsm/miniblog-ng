@@ -9,20 +9,20 @@ This is a simple mini blogger app which takes from my earlier project "TestProje
 <li>in browser, go to "localhost:8000/app/index.html" to view the app</li>
 </ol>
 
-Directory to the app:
+Directory to the app:<br>
 /miniblog-ng/app/index.html
 
-Custom css attributes outside of bootstrap are stored in custom.css found in:
+Custom css attributes outside of bootstrap are stored in custom.css found in:<br>
 /miniblog-ng/app/css
 
-Code files for angular app, controllers, services, and directories are in:
+Code files for angular app, controllers, services, and directories are in:<br>
 /miniblog-ng/app/js
 
-The app uses 2 json files. One to populate the page with posts called posts.json and one for the about section called pages.json. Both are stored in:
+The app uses 2 json files. One to populate the page with posts called posts.json and one for the about section called pages.json. Both are stored in:<br>
 /miniblog-ng/app/json
 
-The html code for the navigation bar is stored in the partials folder:
+The html code for the navigation bar is stored in the partials folder:<br>
 /miniblog-ng/app/partials
 
-Html code for posts and pages views are in:
+Html code for posts and pages views are in:<br>
 /miniblog-ng/app/views
